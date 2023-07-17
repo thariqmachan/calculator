@@ -1,0 +1,63 @@
+first on the created ui of the calculator 
+on every submit button add onclick atttribute
+
+
+FUNCTIONS
+-----------
+= when clikced show output
+AC = content should be erased frm the screen
+backspae = one one item should be removed frm screen
+1-9 = when clicked should display on the screen
+
+
+
+after that write a gunction
+function displayData(n){
+    result.value=result.value+n 
+}
+
+  <button onclick="displayData()">CL</button>
+            <button onclick="displayData()">DEL</button>
+            <button onclick="displayData('%')">%</button>  add each function call
+            <button onclick="displayData('/')">/</button>
+            <button onclick="displayData(7)">7</button>
+            <button onclick="displayData(8)">8</button>
+            <button onclick="displayData(9)">9</button>
+            <button onclick="displayData('*')">*</button>
+            <button onclick="displayData(4)">4</button>
+            <button onclick="displayData(5)">5</button>
+            <button onclick="displayData(6)">6</button>
+            <button onclick="displayData('-')">-</button>
+            <button onclick="displayData(1)">1</button>
+            <button onclick="displayData(2)">2</button>
+            <button onclick="displayData(3)">3</button>
+            <button onclick="displayData('+')">+</button>
+            <button onclick="displayData('.')">.</button>
+            <button onclick="displayData(0)">0</button>
+            <button onclick="displayData()" class="equal">=</button>
+ 
+
+
+ all input type data will be string
+
+ oru inbulit func ind eval()
+ pass the value inside the eval to get the output
+ eval chyth kain kittunna value input il kodknm
+
+ access the string > eval > output > pass it to the input again 
+ function equalto(){
+    result.value=eval(result.value)
+}
+
+  <button onclick=" equalto()" class="equal">=</button>
+
+
+s="abc"
+s.slice(0,-1)
+to remove only the last element 
+
+
+function backSpace(){
+    result.value=result.value.slice(0,-1)
+}
+<button onclick="backSpace()">DEL</button>  
